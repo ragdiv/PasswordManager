@@ -1,0 +1,3 @@
+﻿passwordmanager
+dbuser 
+sqlserver123.

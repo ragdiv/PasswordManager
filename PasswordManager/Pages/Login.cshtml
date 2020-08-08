@@ -1,0 +1,25 @@
+﻿@page
+@model PasswordManager.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<br />
+<br />
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Email">Email address</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">Enter the email address associated with your account</small>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Password</label>
+        <input type="password" class="form-control" id="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button><br /><br />
+    <a href="ForgotPassword">Forgot Password?</a><br />
+    <a href="NewUser">Register</a><br />
+    
+      
+</form>
+
